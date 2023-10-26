@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="198.0" prefWidth="231.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.zoofx.HelloController">
+   <children>
+      <ChoiceBox fx:id="chooseAnimal" layoutX="43.0" layoutY="54.0" prefWidth="150.0" />
+      <Label layoutX="53.0" layoutY="24.0" text="Выберите животное:" textAlignment="CENTER" />
+      <Button fx:id="makeSoundButton" layoutX="75.0" layoutY="93.0" mnemonicParsing="false" text="Издать звук" />
+      <Label fx:id="soundOutput" layoutX="46.0" layoutY="142.0" prefHeight="42.0" prefWidth="150.0" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
