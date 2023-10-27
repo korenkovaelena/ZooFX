@@ -29,6 +29,7 @@ private ObservableList<String> animals = FXCollections.observableArrayList("Cat"
 
 @FXML
 protected void initialize(){
+        makeSoundButton.setStyle("-fx-background-color: blue");
         chooseAnimal.setItems(animals);
         chooseAnimal.setValue("Cat");
         makeSoundButton.setOnAction(actionEvent -> chooseAnimalMakeSound());
